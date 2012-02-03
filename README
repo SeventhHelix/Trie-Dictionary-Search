@@ -1,0 +1,14 @@
+An implementation of a dictionary using a Trie structure. 
+
+Allows the user to add words to the dictionary, subtract words, query a word, 
+or include a filename in the current directory to execute the commands listed inside.
+
+Possible commands: 
+    + word  -   Adds 'word' to dictionary
+    - word  -   Removes 'word' from dictionary
+    ? word  -   Queries 'word', printing a list of all words in the dictionary beginning with 'word'
+    include filename    -   Executes the commands listed in 'filename'
+
+Note that this program will only work for words that use the standard 26-letter alphabet.
+
+To compile, simply run 'make'
